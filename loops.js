@@ -6,7 +6,11 @@
 // Hoera!
 // ==========================================
 
+console.log("opdracht 1:")
 
+for (let i = 0; i < 3; i++) {
+    console.log("Hoera!")
+}
 
 
 
@@ -19,6 +23,12 @@
 // De waarde van i is: 3
 // De waarde van i is: 4
 // ==========================================
+
+console.log("Opdracht 2:")
+
+for (let i = 0; i < 5; i++) {
+    console.log("De waarde van i is " + i);
+}
 
 
 
@@ -38,9 +48,12 @@
 // 10
 // ==========================================
 
+console.log("Opdracht 3a:")
 
+for (let i = 2; i < 11 ; i++) {
+    console.log(i)
 
-
+}
 
 // ==========================================
 // Opdracht 3b. Gebruik dezelfde for-loop uit 3a, maar log nu de waarde van i vermenigvuldigd met 7.
@@ -56,7 +69,11 @@
 // 70
 // ==========================================
 
+console.log("Opdracht 3b:")
 
+for (let i = 2; i < 11; i++) {
+    console.log( 7 * i )
+}
 
 
 
@@ -74,9 +91,11 @@
 // Wanneer een hond 10 jaar is, staat dat gelijk aan 70 mensenjaren.
 // ==========================================
 
+console.log("Opdracht 3c:")
 
-
-
+for (let i = 2; i < 11; i++) {
+    console.log( "Wanneer een hond " + i + " jaar is, staat dat gelijk aan " + 7 * i + " mensenjaren." )
+}
 
 // ==========================================
 // Bonusopdracht. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal EVEN of ONEVEN is.
@@ -92,6 +111,15 @@
 // Tip 2: Een getal is EVEN als je het deelt door 2 en er blijft niets over... Doet dit nog geen belletje rinkelen? Google dan eens naar 'MDN webdocs remainder operator'.
 // ==========================================
 
+console.log("Bonusopdracht:")
 
+for (let i = 0; i < 16; i++) {
+    if(i % 2 === 0){
+        console.log(i + " is even");
+    } else {
+        console.log(i + " is oneven");
+    }
+
+}
 
 
